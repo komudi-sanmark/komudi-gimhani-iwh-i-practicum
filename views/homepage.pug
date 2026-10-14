@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1 Custom Object Table
+    a(href='/update-cobj') Add to this table
+    table
+      thead
+        tr
+          th Name
+          th Publisher
+          th Price
+      tbody
+        each record in records
+          tr
+            td= record.name
+            td= record.publisher
+            td= record.price

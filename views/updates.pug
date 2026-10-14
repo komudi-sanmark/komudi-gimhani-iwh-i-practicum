@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1 Update Custom Object Form
+    a(href='/') Return to the homepage
+    form(action='/update-cobj', method='POST')
+      label(for='name') Name
+      input#name(type='text', name='name', required)
+      label(for='publisher') Publisher
+      input#publisher(type='text', name='publisher', required)
+      label(for='price') Price
+      input#price(type='text', name='price', required)
+      input(type='submit', value='Create')
