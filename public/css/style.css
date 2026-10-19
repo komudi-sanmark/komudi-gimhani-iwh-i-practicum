@@ -56,3 +56,8 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+body { font-family: sans-serif; margin: 20px; }
+table { border-collapse: collapse; margin-top: 16px; }
+th { background: #ffb6c8; }
+th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; }
+form { display: flex; flex-direction: column; max-width: 320px; gap: 8px; margin-top: 16px; }

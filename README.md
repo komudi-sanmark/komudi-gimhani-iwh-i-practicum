@@ -26,3 +26,6 @@ ___
 - All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 - You must have at least two new routes in your index.js file and one new pug template for the homepage.
 - You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+Custom object list view: https://app-na2.hubspot.com/contacts/247623530/objects/2-270107177/views/all/list
+
+HubSpot no longer offers legacy private apps on this account, so a service key named "Komudi's Practicum Private App" was used with the same scopes.
